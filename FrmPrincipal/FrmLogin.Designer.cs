@@ -268,6 +268,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FrmLogin";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
             this.pnlLogin.ResumeLayout(false);
             this.pnlLogin.PerformLayout();

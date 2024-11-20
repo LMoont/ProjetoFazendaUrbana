@@ -189,7 +189,6 @@ namespace FrmPrincipal.gerenciar
             decimal quantidadeAtual = ObterQuantidadeAtual(insumoId);
             decimal quantidade = Convert.ToDecimal(numericQuantidade.Value);
 
-            // Ajusta a quantidade dependendo do tipo de movimentação
             if (radioEntrada.Checked)
             {
                 quantidade += quantidadeAtual;
@@ -197,7 +196,7 @@ namespace FrmPrincipal.gerenciar
             else if (radioSaida.Checked)
             {
                 quantidade = quantidadeAtual - quantidade;
-                if (quantidade < 0) quantidade = 0; // Evitar quantidade negativa
+                if (quantidade < 0) quantidade = 0;
             }
 
             string sqlUpdateEstoque = "UPDATE tbInsumo SET Quantidade = @Quantidade WHERE InsumoId = @InsumoId";

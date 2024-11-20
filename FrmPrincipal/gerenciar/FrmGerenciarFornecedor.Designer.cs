@@ -46,6 +46,7 @@
             this.radioCPF = new System.Windows.Forms.RadioButton();
             this.radioCNPJ = new System.Windows.Forms.RadioButton();
             this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.txtEmail = new System.Windows.Forms.TextBox();
             this.txtEndereco = new System.Windows.Forms.TextBox();
             this.txtNome = new System.Windows.Forms.TextBox();
@@ -54,7 +55,6 @@
             this.lblEndereco = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.btnEditar = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnSalvar = new System.Windows.Forms.Button();
             this.btnDeletar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.gridFornecedores)).BeginInit();
@@ -64,7 +64,7 @@
             // 
             // gridFornecedores
             // 
-            this.gridFornecedores.BackgroundColor = System.Drawing.Color.LightGray;
+            this.gridFornecedores.BackgroundColor = System.Drawing.Color.DarkSeaGreen;
             this.gridFornecedores.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.gridFornecedores.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Sunken;
             this.gridFornecedores.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
@@ -275,6 +275,17 @@
             this.label1.Text = "Gerenciar Fornecedores";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox1.Image = global::FrmPrincipal.Properties.Resources.icons8_peercoin_50__1_;
+            this.pictureBox1.Location = new System.Drawing.Point(1000, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(50, 50);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox1.TabIndex = 7;
+            this.pictureBox1.TabStop = false;
+            // 
             // txtEmail
             // 
             this.txtEmail.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -346,7 +357,7 @@
             this.button1.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.Black;
             this.button1.Image = global::FrmPrincipal.Properties.Resources.icons8_add_24;
-            this.button1.Location = new System.Drawing.Point(473, 377);
+            this.button1.Location = new System.Drawing.Point(451, 378);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(132, 39);
             this.button1.TabIndex = 16;
@@ -367,7 +378,7 @@
             this.btnEditar.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEditar.ForeColor = System.Drawing.Color.Black;
             this.btnEditar.Image = global::FrmPrincipal.Properties.Resources.icons8_edit_24;
-            this.btnEditar.Location = new System.Drawing.Point(751, 378);
+            this.btnEditar.Location = new System.Drawing.Point(729, 379);
             this.btnEditar.Name = "btnEditar";
             this.btnEditar.Size = new System.Drawing.Size(132, 39);
             this.btnEditar.TabIndex = 14;
@@ -376,17 +387,6 @@
             this.btnEditar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnEditar.UseVisualStyleBackColor = false;
             this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox1.Image = global::FrmPrincipal.Properties.Resources.icons8_peercoin_50__1_;
-            this.pictureBox1.Location = new System.Drawing.Point(1000, 3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(50, 50);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox1.TabIndex = 7;
-            this.pictureBox1.TabStop = false;
             // 
             // btnSalvar
             // 
@@ -400,7 +400,7 @@
             this.btnSalvar.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSalvar.ForeColor = System.Drawing.Color.Black;
             this.btnSalvar.Image = global::FrmPrincipal.Properties.Resources.icons8_save_24;
-            this.btnSalvar.Location = new System.Drawing.Point(613, 378);
+            this.btnSalvar.Location = new System.Drawing.Point(591, 379);
             this.btnSalvar.Name = "btnSalvar";
             this.btnSalvar.Size = new System.Drawing.Size(132, 39);
             this.btnSalvar.TabIndex = 12;
@@ -421,7 +421,7 @@
             this.btnDeletar.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDeletar.ForeColor = System.Drawing.Color.Black;
             this.btnDeletar.Image = global::FrmPrincipal.Properties.Resources.icons8_trash_24;
-            this.btnDeletar.Location = new System.Drawing.Point(889, 377);
+            this.btnDeletar.Location = new System.Drawing.Point(867, 378);
             this.btnDeletar.Name = "btnDeletar";
             this.btnDeletar.Size = new System.Drawing.Size(132, 40);
             this.btnDeletar.TabIndex = 13;

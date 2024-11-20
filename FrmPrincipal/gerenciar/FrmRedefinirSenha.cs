@@ -31,19 +31,12 @@ namespace FrmPrincipal.gerenciar
 
         private void btnSalvar_Click(object sender, EventArgs e)
         {
-            string senhaAtual = txtSenhaAtual.Text;
             string novaSenha = txtNovaSenha.Text;
             string senhaConfirmacao = txtConfirmarSenha.Text;
 
             limparCampos();
 
             bool temErro = false;
-
-            if (string.IsNullOrWhiteSpace(txtSenhaAtual.Text))
-            {
-                lblMensagemSenhaAtual.Text = "Preencha o campo com a senha atual.";
-                temErro = true;
-            }
 
             if (string.IsNullOrWhiteSpace(txtNovaSenha.Text))
             {
@@ -61,48 +54,7 @@ namespace FrmPrincipal.gerenciar
             {
                 return;
             }
-
-            if (novaSenha == senhaAtual)
-            {
-                MessageBox.Show("A nova senha não pode ser igual a senha atual!", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
-            }
-
-            string senhaArmazenada = "";
-
-            string sqlSelect = "SELECT Senha FROM tbUsuarios WHERE ID = @idUsuario";
-
-            using (ConexaoDB conexao = new ConexaoDB())
-            {
-                using (SqlCommand cmd = new SqlCommand(sqlSelect, conexao.AbrirConexao()))
-                {
-                    cmd.Parameters.AddWithValue("@idUsuario", idUsuario);
-
-                    object result = cmd.ExecuteScalar();
-
-                    if (result != null)
-                    {
-                        senhaArmazenada = result.ToString();
-                    }
-
-                    if (PasswordHasher.HashSenha(senhaAtual) == senhaArmazenada)
-                    {
-                        AtualizarSenha();
-                    }
-                   
-                    else
-                    {
-                        MessageBox.Show("Senha atual incorreta!", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                        
-                        txtSenhaAtual.Text = "";
-                        txtNovaSenha.Text = "";
-                        txtConfirmarSenha.Text = "";
-                        txtSenhaAtual.Focus();
-                       
-                        return;
-                    }
-                }
-            }
+            AtualizarSenha();
         }
 
         private void AtualizarSenha()
@@ -115,10 +67,6 @@ namespace FrmPrincipal.gerenciar
                 MessageBox.Show("As senhas não podem estar vazias!", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
-
-            if (novaSenha == confirmarSenha)
-            
-            {
                 string senhaNovaHashed = PasswordHasher.HashSenha(novaSenha);
                 string sqlUpdate = "UPDATE tbUsuarios SET Senha = @senha WHERE ID = @idUsuario";
 
@@ -142,11 +90,6 @@ namespace FrmPrincipal.gerenciar
                     }
                 }
             }
-            else
-            {
-                MessageBox.Show("As senhas não coincidem!", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-        }
 
         private void btnCancelar_Click(object sender, EventArgs e)
         {
@@ -155,7 +98,6 @@ namespace FrmPrincipal.gerenciar
 
         private void limparCampos()
         {
-            lblMensagemSenhaAtual.Text = "";
             lblMensagemNovaSenha.Text = "";
             lblMensagemConfirmarSenha.Text = "";
         }

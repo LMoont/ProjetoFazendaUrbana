@@ -8,7 +8,6 @@ namespace Fazenda.Models
 {
     public static class UsuarioLogado
     {
-        public static int UsuarioId { get; set; }
-        public static string NomeUsuario { get; set; }
+        public static string Nome { get; set; }
     }
 }

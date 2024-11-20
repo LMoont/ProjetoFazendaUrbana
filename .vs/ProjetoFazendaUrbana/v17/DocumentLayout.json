@@ -3,24 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\lucas\\OneDrive\\Documentos\\ADS\\4\u00B0 Semestre\\PIM\\ProjetoFazendaUrbana\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8558B167-38BA-42AF-B388-D3A9C61D2A3E}|FrmPrincipal\\Fazenda.csproj|c:\\users\\lucas\\onedrive\\documentos\\ads\\4\u00B0 semestre\\pim\\projetofazendaurbana\\frmprincipal\\cadastrar\\frmcadastrartarefa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8558B167-38BA-42AF-B388-D3A9C61D2A3E}|FrmPrincipal\\Fazenda.csproj|solutionrelative:frmprincipal\\cadastrar\\frmcadastrartarefa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8558B167-38BA-42AF-B388-D3A9C61D2A3E}|FrmPrincipal\\Fazenda.csproj|c:\\users\\lucas\\onedrive\\documentos\\ads\\4\u00B0 semestre\\pim\\projetofazendaurbana\\frmprincipal\\cadastrar\\frmcadastrarproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8558B167-38BA-42AF-B388-D3A9C61D2A3E}|FrmPrincipal\\Fazenda.csproj|solutionrelative:frmprincipal\\cadastrar\\frmcadastrarproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8558B167-38BA-42AF-B388-D3A9C61D2A3E}|FrmPrincipal\\Fazenda.csproj|c:\\users\\lucas\\onedrive\\documentos\\ads\\4\u00B0 semestre\\pim\\projetofazendaurbana\\frmprincipal\\cadastrar\\frmcadastrartarefa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{8558B167-38BA-42AF-B388-D3A9C61D2A3E}|FrmPrincipal\\Fazenda.csproj|solutionrelative:frmprincipal\\cadastrar\\frmcadastrartarefa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8558B167-38BA-42AF-B388-D3A9C61D2A3E}|FrmPrincipal\\Fazenda.csproj|c:\\users\\lucas\\onedrive\\documentos\\ads\\4\u00B0 semestre\\pim\\projetofazendaurbana\\frmprincipal\\gerenciar\\frmgerenciarproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8558B167-38BA-42AF-B388-D3A9C61D2A3E}|FrmPrincipal\\Fazenda.csproj|solutionrelative:frmprincipal\\gerenciar\\frmgerenciarproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8558B167-38BA-42AF-B388-D3A9C61D2A3E}|FrmPrincipal\\Fazenda.csproj|c:\\users\\lucas\\onedrive\\documentos\\ads\\4\u00B0 semestre\\pim\\projetofazendaurbana\\frmprincipal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8558B167-38BA-42AF-B388-D3A9C61D2A3E}|FrmPrincipal\\Fazenda.csproj|solutionrelative:frmprincipal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8558B167-38BA-42AF-B388-D3A9C61D2A3E}|FrmPrincipal\\Fazenda.csproj|C:\\Users\\lucas\\OneDrive\\Documentos\\ADS\\4\u00B0 Semestre\\PIM\\ProjetoFazendaUrbana\\frmprincipal\\cadastrar\\frmcadastrartarefa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8558B167-38BA-42AF-B388-D3A9C61D2A3E}|FrmPrincipal\\Fazenda.csproj|solutionrelative:frmprincipal\\cadastrar\\frmcadastrartarefa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "FrmCadastrarTarefa.cs",
               "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\Documentos\\ADS\\4\u00B0 Semestre\\PIM\\ProjetoFazendaUrbana\\FrmPrincipal\\cadastrar\\FrmCadastrarTarefa.cs",
               "RelativeDocumentMoniker": "FrmPrincipal\\cadastrar\\FrmCadastrarTarefa.cs",
               "ToolTip": "C:\\Users\\lucas\\OneDrive\\Documentos\\ADS\\4\u00B0 Semestre\\PIM\\ProjetoFazendaUrbana\\FrmPrincipal\\cadastrar\\FrmCadastrarTarefa.cs",
               "RelativeToolTip": "FrmPrincipal\\cadastrar\\FrmCadastrarTarefa.cs",
-              "ViewState": "AQIAAGMAAAAAAAAAAAAmwGgAAAAtAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAG0AAABgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T02:04:32.01Z",
+              "WhenOpened": "2024-11-20T03:06:02.338Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FrmCadastrarProduto.cs",
-              "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\Documentos\\ADS\\4\u00B0 Semestre\\PIM\\ProjetoFazendaUrbana\\FrmPrincipal\\cadastrar\\FrmCadastrarProduto.cs",
-              "RelativeDocumentMoniker": "FrmPrincipal\\cadastrar\\FrmCadastrarProduto.cs",
-              "ToolTip": "C:\\Users\\lucas\\OneDrive\\Documentos\\ADS\\4\u00B0 Semestre\\PIM\\ProjetoFazendaUrbana\\FrmPrincipal\\cadastrar\\FrmCadastrarProduto.cs",
-              "RelativeToolTip": "FrmPrincipal\\cadastrar\\FrmCadastrarProduto.cs",
-              "ViewState": "AQIAALUAAAAAAAAAAADwv68AAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T22:50:19.126Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "FrmCadastrarTarefa.cs [Design]",
               "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\Documentos\\ADS\\4\u00B0 Semestre\\PIM\\ProjetoFazendaUrbana\\FrmPrincipal\\cadastrar\\FrmCadastrarTarefa.cs",
               "RelativeDocumentMoniker": "FrmPrincipal\\cadastrar\\FrmCadastrarTarefa.cs",
               "ToolTip": "C:\\Users\\lucas\\OneDrive\\Documentos\\ADS\\4\u00B0 Semestre\\PIM\\ProjetoFazendaUrbana\\FrmPrincipal\\cadastrar\\FrmCadastrarTarefa.cs [Design]",
               "RelativeToolTip": "FrmPrincipal\\cadastrar\\FrmCadastrarTarefa.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T00:14:44.159Z",
+              "WhenOpened": "2024-11-20T03:05:51.287Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FrmGerenciarProduto.cs",
-              "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\Documentos\\ADS\\4\u00B0 Semestre\\PIM\\ProjetoFazendaUrbana\\FrmPrincipal\\gerenciar\\FrmGerenciarProduto.cs",
-              "RelativeDocumentMoniker": "FrmPrincipal\\gerenciar\\FrmGerenciarProduto.cs",
-              "ToolTip": "C:\\Users\\lucas\\OneDrive\\Documentos\\ADS\\4\u00B0 Semestre\\PIM\\ProjetoFazendaUrbana\\FrmPrincipal\\gerenciar\\FrmGerenciarProduto.cs",
-              "RelativeToolTip": "FrmPrincipal\\gerenciar\\FrmGerenciarProduto.cs",
-              "ViewState": "AQIAAJEAAAAAAAAAAADwv6AAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T10:14:39.727Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\Documentos\\ADS\\4\u00B0 Semestre\\PIM\\ProjetoFazendaUrbana\\FrmPrincipal\\Program.cs",
-              "RelativeDocumentMoniker": "FrmPrincipal\\Program.cs",
-              "ToolTip": "C:\\Users\\lucas\\OneDrive\\Documentos\\ADS\\4\u00B0 Semestre\\PIM\\ProjetoFazendaUrbana\\FrmPrincipal\\Program.cs",
-              "RelativeToolTip": "FrmPrincipal\\Program.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T21:00:32.109Z",
-              "EditorCaption": ""
             }
           ]
         }

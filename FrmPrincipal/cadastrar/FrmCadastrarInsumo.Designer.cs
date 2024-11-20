@@ -31,29 +31,29 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmCadastrarInsumo));
             this.panel1 = new System.Windows.Forms.Panel();
             this.lblMsgValor = new System.Windows.Forms.Label();
+            this.numericQuantidade = new System.Windows.Forms.NumericUpDown();
+            this.label8 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.lblMsgQuantidade = new System.Windows.Forms.Label();
             this.numericValor = new System.Windows.Forms.NumericUpDown();
+            this.label4 = new System.Windows.Forms.Label();
             this.btnCancelar = new System.Windows.Forms.Button();
             this.btnCadastrar = new System.Windows.Forms.Button();
+            this.txtDescricao = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.cmbUnidadeMedida = new System.Windows.Forms.ComboBox();
-            this.numericQuantidade = new System.Windows.Forms.NumericUpDown();
-            this.lblMsgQuantidade = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.lblMsgCategoria = new System.Windows.Forms.Label();
             this.lblMsgUnidadeMedida = new System.Windows.Forms.Label();
             this.cmbFornecedor = new System.Windows.Forms.ComboBox();
             this.lblMsgNome = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
             this.txtNome = new System.Windows.Forms.TextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.txtDescricao = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericValor)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericQuantidade)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericValor)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -96,6 +96,28 @@
             this.lblMsgValor.TabIndex = 37;
             this.lblMsgValor.Text = "O valor deve ser maior que zero.";
             // 
+            // numericQuantidade
+            // 
+            this.numericQuantidade.Location = new System.Drawing.Point(33, 343);
+            this.numericQuantidade.Maximum = new decimal(new int[] {
+            500,
+            0,
+            0,
+            0});
+            this.numericQuantidade.Name = "numericQuantidade";
+            this.numericQuantidade.Size = new System.Drawing.Size(100, 30);
+            this.numericQuantidade.TabIndex = 11;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(29, 317);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(104, 23);
+            this.label8.TabIndex = 24;
+            this.label8.Text = "Quantidade:";
+            // 
             // label5
             // 
             this.label5.AutoSize = true;
@@ -105,6 +127,16 @@
             this.label5.Size = new System.Drawing.Size(119, 23);
             this.label5.TabIndex = 36;
             this.label5.Text = "Valor Unitário:";
+            // 
+            // lblMsgQuantidade
+            // 
+            this.lblMsgQuantidade.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMsgQuantidade.ForeColor = System.Drawing.Color.Red;
+            this.lblMsgQuantidade.Location = new System.Drawing.Point(30, 377);
+            this.lblMsgQuantidade.Name = "lblMsgQuantidade";
+            this.lblMsgQuantidade.Size = new System.Drawing.Size(131, 39);
+            this.lblMsgQuantidade.TabIndex = 30;
+            this.lblMsgQuantidade.Text = "A quantidade deve ser maior que zero.";
             // 
             // numericValor
             // 
@@ -117,6 +149,16 @@
             this.numericValor.Name = "numericValor";
             this.numericValor.Size = new System.Drawing.Size(115, 30);
             this.numericValor.TabIndex = 35;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(29, 418);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(87, 23);
+            this.label4.TabIndex = 34;
+            this.label4.Text = "Descrição:";
             // 
             // btnCancelar
             // 
@@ -151,6 +193,15 @@
             this.btnCadastrar.UseVisualStyleBackColor = false;
             this.btnCadastrar.Click += new System.EventHandler(this.btnCadastrar_Click);
             // 
+            // txtDescricao
+            // 
+            this.txtDescricao.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtDescricao.Location = new System.Drawing.Point(33, 444);
+            this.txtDescricao.Multiline = true;
+            this.txtDescricao.Name = "txtDescricao";
+            this.txtDescricao.Size = new System.Drawing.Size(440, 79);
+            this.txtDescricao.TabIndex = 33;
+            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -176,37 +227,15 @@
             this.cmbUnidadeMedida.Size = new System.Drawing.Size(153, 31);
             this.cmbUnidadeMedida.TabIndex = 31;
             // 
-            // numericQuantidade
-            // 
-            this.numericQuantidade.Location = new System.Drawing.Point(33, 343);
-            this.numericQuantidade.Maximum = new decimal(new int[] {
-            500,
-            0,
-            0,
-            0});
-            this.numericQuantidade.Name = "numericQuantidade";
-            this.numericQuantidade.Size = new System.Drawing.Size(100, 30);
-            this.numericQuantidade.TabIndex = 11;
-            // 
-            // lblMsgQuantidade
-            // 
-            this.lblMsgQuantidade.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMsgQuantidade.ForeColor = System.Drawing.Color.Red;
-            this.lblMsgQuantidade.Location = new System.Drawing.Point(30, 377);
-            this.lblMsgQuantidade.Name = "lblMsgQuantidade";
-            this.lblMsgQuantidade.Size = new System.Drawing.Size(131, 39);
-            this.lblMsgQuantidade.TabIndex = 30;
-            this.lblMsgQuantidade.Text = "A quantidade deve ser maior que zero.";
-            // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(29, 228);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(88, 23);
+            this.label7.Size = new System.Drawing.Size(102, 23);
             this.label7.TabIndex = 6;
-            this.label7.Text = "Categoria:";
+            this.label7.Text = "Fornecedor:";
             // 
             // lblMsgCategoria
             // 
@@ -250,16 +279,6 @@
             this.lblMsgNome.TabIndex = 9;
             this.lblMsgNome.Text = "O campo Nome é obrigatório.";
             // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(29, 317);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(104, 23);
-            this.label8.TabIndex = 24;
-            this.label8.Text = "Quantidade:";
-            // 
             // txtNome
             // 
             this.txtNome.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -268,6 +287,17 @@
             this.txtNome.Size = new System.Drawing.Size(440, 30);
             this.txtNome.TabIndex = 1;
             this.txtNome.TextChanged += new System.EventHandler(this.txtNome_TextChanged);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox1.Image = global::FrmPrincipal.Properties.Resources.icons8_peercoin_50__1_;
+            this.pictureBox1.Location = new System.Drawing.Point(229, 19);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(50, 50);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox1.TabIndex = 7;
+            this.pictureBox1.TabStop = false;
             // 
             // label1
             // 
@@ -289,36 +319,6 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "Nome:";
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox1.Image = global::FrmPrincipal.Properties.Resources.icons8_peercoin_50__1_;
-            this.pictureBox1.Location = new System.Drawing.Point(229, 19);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(50, 50);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox1.TabIndex = 7;
-            this.pictureBox1.TabStop = false;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(29, 418);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(87, 23);
-            this.label4.TabIndex = 34;
-            this.label4.Text = "Descrição:";
-            // 
-            // txtDescricao
-            // 
-            this.txtDescricao.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtDescricao.Location = new System.Drawing.Point(33, 444);
-            this.txtDescricao.Multiline = true;
-            this.txtDescricao.Name = "txtDescricao";
-            this.txtDescricao.Size = new System.Drawing.Size(440, 79);
-            this.txtDescricao.TabIndex = 33;
-            // 
             // FrmCadastrarInsumo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 23F);
@@ -336,8 +336,8 @@
             this.Text = "Cadastrar Insumo";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericValor)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericQuantidade)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericValor)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 

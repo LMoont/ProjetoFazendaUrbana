@@ -50,6 +50,7 @@
             this.btnEditar = new System.Windows.Forms.Button();
             this.btnSalvar = new System.Windows.Forms.Button();
             this.btnDeletar = new System.Windows.Forms.Button();
+            this.btnNovo = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridUsuarios)).BeginInit();
@@ -250,7 +251,7 @@
             // 
             // gridUsuarios
             // 
-            this.gridUsuarios.BackgroundColor = System.Drawing.Color.LightGray;
+            this.gridUsuarios.BackgroundColor = System.Drawing.Color.DarkSeaGreen;
             this.gridUsuarios.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.gridUsuarios.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Sunken;
             this.gridUsuarios.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
@@ -283,7 +284,7 @@
             this.btnEditar.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEditar.ForeColor = System.Drawing.Color.Black;
             this.btnEditar.Image = global::FrmPrincipal.Properties.Resources.edit;
-            this.btnEditar.Location = new System.Drawing.Point(507, 377);
+            this.btnEditar.Location = new System.Drawing.Point(571, 379);
             this.btnEditar.Name = "btnEditar";
             this.btnEditar.Size = new System.Drawing.Size(132, 39);
             this.btnEditar.TabIndex = 9;
@@ -305,7 +306,7 @@
             this.btnSalvar.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSalvar.ForeColor = System.Drawing.Color.Black;
             this.btnSalvar.Image = global::FrmPrincipal.Properties.Resources.save_2;
-            this.btnSalvar.Location = new System.Drawing.Point(369, 377);
+            this.btnSalvar.Location = new System.Drawing.Point(433, 379);
             this.btnSalvar.Name = "btnSalvar";
             this.btnSalvar.Size = new System.Drawing.Size(132, 39);
             this.btnSalvar.TabIndex = 7;
@@ -326,7 +327,7 @@
             this.btnDeletar.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDeletar.ForeColor = System.Drawing.Color.Black;
             this.btnDeletar.Image = global::FrmPrincipal.Properties.Resources.deletar;
-            this.btnDeletar.Location = new System.Drawing.Point(645, 376);
+            this.btnDeletar.Location = new System.Drawing.Point(709, 378);
             this.btnDeletar.Name = "btnDeletar";
             this.btnDeletar.Size = new System.Drawing.Size(132, 40);
             this.btnDeletar.TabIndex = 8;
@@ -336,12 +337,34 @@
             this.btnDeletar.UseVisualStyleBackColor = false;
             this.btnDeletar.Click += new System.EventHandler(this.btnDeletar_Click);
             // 
+            // btnNovo
+            // 
+            this.btnNovo.AccessibleName = "Salvar";
+            this.btnNovo.BackColor = System.Drawing.Color.PaleGreen;
+            this.btnNovo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnNovo.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.btnNovo.FlatAppearance.BorderSize = 10;
+            this.btnNovo.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnNovo.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNovo.ForeColor = System.Drawing.Color.Black;
+            this.btnNovo.Image = global::FrmPrincipal.Properties.Resources.icons8_add_24;
+            this.btnNovo.Location = new System.Drawing.Point(295, 378);
+            this.btnNovo.Name = "btnNovo";
+            this.btnNovo.Size = new System.Drawing.Size(132, 39);
+            this.btnNovo.TabIndex = 28;
+            this.btnNovo.Text = "Novo";
+            this.btnNovo.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnNovo.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnNovo.UseVisualStyleBackColor = false;
+            this.btnNovo.Click += new System.EventHandler(this.btnNovo_Click);
+            // 
             // FrmGerenciarUsuarios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.ClientSize = new System.Drawing.Size(1145, 774);
+            this.Controls.Add(this.btnNovo);
             this.Controls.Add(this.btnEditar);
             this.Controls.Add(this.gridUsuarios);
             this.Controls.Add(this.panel1);
@@ -395,5 +418,6 @@
         private System.Windows.Forms.Label lblNome;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnEditar;
+        private System.Windows.Forms.Button btnNovo;
     }
 }

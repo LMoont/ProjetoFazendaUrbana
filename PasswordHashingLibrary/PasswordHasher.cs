@@ -13,10 +13,8 @@ namespace PasswordHashingLibrary
         {
             using (SHA256 sha256Hash = SHA256.Create())
             {
-                // Computa o hash da senha
                 byte[] bytes = sha256Hash.ComputeHash(Encoding.UTF8.GetBytes(senha));
 
-                // Converte o hash para uma string hexadecimal
                 StringBuilder builder = new StringBuilder();
                 foreach (var b in bytes)
                 {

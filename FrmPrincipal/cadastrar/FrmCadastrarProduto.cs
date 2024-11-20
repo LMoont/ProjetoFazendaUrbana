@@ -13,6 +13,7 @@ namespace FrmPrincipal.cadastrar
 {
     public partial class FrmCadastrarProduto : Form
     {
+        FrmPrincipal FrmPrincipal = new FrmPrincipal();
         public FrmCadastrarProduto()
         {
             InitializeComponent();
@@ -187,6 +188,7 @@ namespace FrmPrincipal.cadastrar
         private void btnCadastrar_Click(object sender, EventArgs e)
         {
             ValidarCampos();
+            FrmPrincipal.ExibirUltimoProdutoColhido();
         }
     }
 }

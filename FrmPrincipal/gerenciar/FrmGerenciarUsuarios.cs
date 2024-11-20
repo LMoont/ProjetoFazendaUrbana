@@ -294,6 +294,11 @@ namespace FrmPrincipal.cadastrar
             txtEmail.Text = "";
             cmbNivelAcesso.SelectedIndex = -1;
         }
-        
+
+        private void btnNovo_Click(object sender, EventArgs e)
+        {
+            FrmCadastrarUsuario frm = new FrmCadastrarUsuario();
+            frm.ShowDialog();
+        }
     }
 }

@@ -77,7 +77,7 @@
             // 
             // gridInsumos
             // 
-            this.gridInsumos.BackgroundColor = System.Drawing.Color.LightGray;
+            this.gridInsumos.BackgroundColor = System.Drawing.Color.DarkSeaGreen;
             this.gridInsumos.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.gridInsumos.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Sunken;
             this.gridInsumos.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;

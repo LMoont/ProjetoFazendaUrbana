@@ -22,7 +22,7 @@ namespace FrmPrincipal
             Thread.CurrentThread.CurrentUICulture = new CultureInfo("pt-BR");
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmCadastrarTarefa());
+            Application.Run(new FrmLogin());
         }
     }
 }

@@ -106,7 +106,7 @@ namespace FrmPrincipal
             DateTime dataLimite = dtpDataLimite.Value;
 
 
-            string sqlInsert = "INSERT INTO tbTarefa (Titulo, Descricao, FuncionarioId, Prioridade, DataLimite) " +
+            string sqlInsert = "INSERT INTO tb_tarefa (titulo, descricao, funcionario_id, prioridade, data_limite) " +
                                 "VALUES (@Titulo, @Descricao, @FuncionarioId, @Prioridade, @DataLimite)";
 
             using (ConexaoDB conexao = new ConexaoDB())

@@ -89,16 +89,13 @@ namespace FrmPrincipal
                             {
                                 string storedHash = reader["Senha"].ToString();
                                 int idUsuario = Convert.ToInt32(reader["ID"]);
-                                string nomeCompleto = reader["Nome"].ToString();
+                                UsuarioLogado.Nome = reader["Nome"].ToString();
 
                                 string inputHash = PasswordHasher.HashSenha(senha);
 
                                 if (storedHash == inputHash)
                                 {
                                     AtualizarUltimoLogin(idUsuario);
-
-                                    UsuarioLogado.UsuarioId = idUsuario;
-                                    UsuarioLogado.NomeUsuario = nomeCompleto;
 
                                     FrmPrincipal frm = new FrmPrincipal();
                                     frm.Show();
